@@ -16,6 +16,7 @@ ActiveAvro aims to extend the baseline Ruby support with:
 
 [Avro]: http://avro.apache.org/
 [avro-ruby]: https://github.com/apache/avro/tree/trunk/lang/ruby
+[Virtus]: https://github.com/solnic/virtus
 
 
 Project Status
@@ -46,7 +47,7 @@ Or install it yourself as:
 Usage
 -----
 
-Given a schema definition:
+Given a schema definition saved in a file:
 
     { "type": "record",
       "name": "Message",
