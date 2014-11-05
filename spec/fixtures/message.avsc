@@ -1,0 +1,10 @@
+{ "type": "record",
+  "name": "Message",
+  "fields" : [
+    { "name": "to", "type": "string" },
+    { "name": "from", "type": "string" },
+    { "name": "body", "type": "string" },
+    { "name": "sent", "type": "boolean", "default": "false" }
+  ]
+}
+
