@@ -22,6 +22,8 @@ ActiveAvro aims to extend the baseline Ruby support with:
 Project Status
 --------------
 
+[![Build Status](https://travis-ci.org/ches/activeavro.svg)](https://travis-ci.org/ches/activeavro)
+
 This is new project with only basic features implemented, not recommended for
 real-world use yet. In particular, only simple Avro schemas are supported (no
 complex types), and no ActiveModel or RPC functionality is implemented.
